@@ -141,6 +141,11 @@ footer {
     text-shadow: #9900cc 1px 0 3px; /* this is a purple shadow */
 }
 
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 /* using media queries to make it responsive */
 @media(max-width: 768px) { /* CSS code for small screen sizes */
     header #branding,
