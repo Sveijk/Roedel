@@ -1,7 +1,9 @@
 body {
-    background-color: #ffffff/*#00cc00*/;
+    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+    /*
+    background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%); */
     color: #000000 /*#ffffff*/;
-    font: 15px/1.5 Comic Sans MS, Arial, Helvetica, sans-serif;
+    font: 10px Comic Sans MS, Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -19,9 +21,9 @@ body {
 
 h1 {
     color: #9900cc;
-    font-family: /*'Lobster',*/ 'Comic Sans MS', serif;
-    font-size: 32px;
-    text-shadow: white 1px 0 3px; /* this is a white shadow */
+    font-family: 'Lobster', 'Comic Sans MS', sans-serif;
+    font-size: 3.2em;
+    text-shadow: white 0.1em 0 0.3em; /* this is a white shadow */
 }
 
 ul {
@@ -38,7 +40,7 @@ header {
 
 header a {
     color: #000000 /*#ffffff*/;
-    font-size: 16px;
+    font-size: 1.2em;
     text-decoration: none;
 }
 
@@ -58,11 +60,11 @@ header #branding h1 {
 
 header nav {
     float: right;
-    margin-top: 10px;
+    margin-top: 1em;
 }
 
 header .highlight, header .current a {
-    font-family: 'Comic Sans MS';
+    font-family: 'Comic Sans MS', sans-serif;
     color: #00cc00;
 }
 
@@ -74,12 +76,15 @@ header a:hover {
 #showcase {
     background-size: cover;
     color: #000000 /*#ffffff*/;
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 1.6em;
+    margin: auto;
     min-height: 400px;
     text-align: center;
 }
 
 #showcase h1 {
-    font-size: 55px;
+    font-size: 3.0em;
     margin-bottom: 10px;
     margin-top: 100px;
     text-align: center;
@@ -88,22 +93,14 @@ header a:hover {
 #showcase h3 {
     color: #9900cc;
     font-family: 'Comic Sans MS', sans-serif;
-    font-size: 33px;
+    font-size: 1.5em;
     margin-bottom: 10px;
     margin-top: 30px;
     text-align: center;
 }
 
-#showcase p {
-    color: #000000;
-    font-family: sans-serif;
-    font-size: 16px;
-    margin: auto;
-    text-align: center;
-}
-
 #showcase h4 {
-    font-family: sans-serif;
+    font-family: 'Comic Sans MS', sans-serif;
     text-align: center;
 }
 
@@ -113,6 +110,7 @@ header a:hover {
 }
 
 #boxes .box {
+    color: #9900cc;
     float: left;
     text-align: center;
     width: 33%;
@@ -120,29 +118,31 @@ header a:hover {
 }
 
 #boxes h3 {
+    color: #9900cc;
     font-family: 'Comic Sans MS', sans-serif;
-    font-size: 33px;
+    font-size: 0.5em;
     margin-bottom: 10px;
     margin-top: 30px;
 }
 
 #boxes p {
-    font-family: sans-serif;
-    font-size: 20px;
+    color: #000000 /*#ffffff*/;
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 0.35em;
 }
 
 /* footer */
 footer {
-    background-color: #00cc00;
-    color: #ffffff;
+/*    background-color: #00cc00; */
+    color: #9900cc;
     margin-top: 20px;
     padding: 20px;
     text-align: center;
-    text-shadow: #9900cc 1px 0 3px; /* this is a purple shadow */
+    text-shadow: #ffffff 1px 0 3px; /* this is a purple shadow */
 }
 
 footer a {
-    color: #ffffff;
+    color: #9900cc;
     text-decoration: none;
 }
 
@@ -260,3 +260,18 @@ div .gallery {
 .form {
     text-align: center;
 }
+
+/*
+Om de breedte van artikel body te zetten kun je de max-width attribute gebruiken.
+
+@media only screen and (min-width: 769px)
+.article {
+    padding: 0;
+}
+.article {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+ */
